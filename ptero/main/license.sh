@@ -1,2 +1,2 @@
 
-bash <(curl -fsSL https://raw.githubusercontent.com/nobita329/ptero/refs/heads/main/ptero/main/dev.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/lie-kg/ptero/refs/heads/main/ptero/main/dev.sh)

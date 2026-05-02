@@ -1,7 +1,7 @@
 #!/bin/bash
 # ===========================================================
-# CODING HUB - OBSIDIAN NEXT GEN (v11.2 - Custom Banner)
-# Style: Segmented UI / Glass-Look / Nobita Edition
+# LIE-KG HUB - OBSIDIAN NEXT GEN (v11.2 - Custom Banner)
+# Style: Segmented UI / Glass-Look / lie_kg Edition
 # ===========================================================
 
 # --- 0. PRE-INITIALIZATION ---

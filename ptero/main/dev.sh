@@ -38,12 +38,12 @@ render_ui() {
     echo -e ""
 
     # --- CUSTOM LARGE BANNER (GRADIENT EFFECT) ---
-    echo -e "${B_CYAN} ██████╗ ██████╗ ██████╗ ██╗███╗   ██╗ ██████╗      ██╗  ██╗██╗   ██╗██████╗ ${NC}"
-    echo -e "${B_CYAN}██╔════╝██╔═══██╗██╔══██╗██║████╗  ██║██╔════╝      ██║  ██║██║   ██║██╔══██╗${NC}"
-    echo -e "${B_PURPLE}██║     ██║   ██║██║  ██║██║██╔██╗ ██║██║  ███╗     ███████║██║   ██║██████╔╝${NC}"
-    echo -e "${B_PURPLE}██║     ██║   ██║██║  ██║██║██║╚██╗██║██║   ██║     ██╔══██║██║   ██║██╔══██╗${NC}"
-    echo -e "${GOLD}╚██████╗╚██████╔╝██████╔╝██║██║ ╚████║╚██████╔╝     ██║  ██║╚██████╔╝██████╔╝${NC}"
-    echo -e "${GOLD} ╚═════╝ ╚═════╝ ╚═════╝ ╚═╝╚═╝  ╚═══╝ ╚═════╝      ╚═╝  ╚═╝ ╚═════╝ ╚═════╝ ${NC}"
+    echo -e "${B_CYAN}██╗     ██╗███████╗    ██╗  ██╗ ██████╗      ██████╗██╗      ██████╗ ██╗   ██╗██████╗ ${NC}"
+    echo -e "${B_CYAN}██║     ██║██╔════╝    ██║ ██╔╝██╔════╝     ██╔════╝██║     ██╔═══██╗██║   ██║██╔══██╗${NC}"
+    echo -e "${B_PURPLE}██║     ██║█████╗      █████╔╝ ██║  ███╗    ██║     ██║     ██║   ██║██║   ██║██║  ██║${NC}"
+    echo -e "${B_PURPLE}██║     ██║██╔══╝      ██╔═██╗ ██║   ██║    ██║     ██║     ██║   ██║██║   ██║██║  ██║${NC}"
+    echo -e "${GOLD}███████╗██║███████╗    ██║  ██╗╚██████╔╝    ╚██████╗███████╗╚██████╔╝╚██████╔╝██████╔╝${NC}"
+    echo -e "${GOLD}╚══════╝╚═╝╚══════╝    ╚═╝  ╚═╝ ╚═════╝      ╚═════╝╚══════╝ ╚═════╝  ╚═════╝ ╚═════╝ ${NC}"
     
     echo -e "  ${G}───────────────────────────────────────────────────────────────────────────${NC}"
     
@@ -72,13 +72,13 @@ while true; do
     render_ui
     read -r opt
     case $opt in
-        1) bash <(curl -s https://raw.githubusercontent.com/nobita329/ptero/refs/heads/main/ptero/vps/run.sh) ;;
-        2) bash <(curl -s https://raw.githubusercontent.com/nobita329/ptero/refs/heads/main/ptero/panel/run.sh) ;;
-        3) bash <(curl -s https://raw.githubusercontent.com/nobita329/ptero/refs/heads/main/ptero/wings/run.sh) ;;
-        4) bash <(curl -s https://raw.githubusercontent.com/nobita329/ptero/refs/heads/main/ptero/tools/run.sh) ;;
-        5) bash <(curl -s https://raw.githubusercontent.com/nobita329/ptero/refs/heads/main/ptero/thame/chang/dev.sh) ;;
-        6) bash <(curl -s https://raw.githubusercontent.com/nobita329/The-Coding-Hub/refs/heads/main/srv/menu/System1.sh) ;;
-        7) bash <(curl -s https://raw.githubusercontent.com/nobita329/ptero/refs/heads/main/ptero/no-kvm/run.sh) ;;
+        1) bash <(curl -s https://raw.githubusercontent.com/lie-kg/ptero/refs/heads/main/ptero/vps/run.sh) ;;
+        2) bash <(curl -s https://raw.githubusercontent.com/lie-kg/ptero/refs/heads/main/ptero/panel/run.sh) ;;
+        3) bash <(curl -s https://raw.githubusercontent.com/lie-kg/ptero/refs/heads/main/ptero/wings/run.sh) ;;
+        4) bash <(curl -s https://raw.githubusercontent.com/lie-kg/ptero/refs/heads/main/ptero/tools/run.sh) ;;
+        5) bash <(curl -s https://raw.githubusercontent.com/lie-kg/ptero/refs/heads/main/ptero/thame/chang/dev.sh) ;;
+        6) bash <(curl -s https://raw.githubusercontent.com/lie-kg/lie-kg-Hub/refs/heads/main/srv/menu/System1.sh) ;;
+        7) bash <(curl -s https://raw.githubusercontent.com/lie-kg/ptero/refs/heads/main/ptero/no-kvm/run.sh) ;;
         8|exit) 
             echo -e "\n  ${B_RED}DISCONNECTED.${NC} Goodbye, Nobita."
             exit 0 ;;

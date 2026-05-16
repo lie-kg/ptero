@@ -65,9 +65,9 @@ echo "🧠 OS Detected: $OS ($CODENAME)"
 # BASE REPOS
 # ==============================
 if [[ "$OS" == "ubuntu" ]]; then
-   bash <(curl -s https://raw.githubusercontent.com/nobita329/ptero/refs/heads/main/ptero/panel/FeatherPanel/Ubuntu.sh)
+   bash <(curl -s https://raw.githubusercontent.com/lie-kg/ptero/refs/heads/main/ptero/panel/FeatherPanel/Ubuntu.sh)
 elif [[ "$OS" == "debian" ]]; then
-   bash <(curl -s https://raw.githubusercontent.com/nobita329/ptero/refs/heads/main/ptero/panel/FeatherPanel/Debian.sh)
+   bash <(curl -s https://raw.githubusercontent.com/lie-kg/ptero/refs/heads/main/ptero/panel/FeatherPanel/Debian.sh)
 else
   echo "❌ Unsupported OS"
   exit 1

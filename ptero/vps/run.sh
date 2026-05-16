@@ -1,12 +1,12 @@
 #!/bin/bash
 # ===========================================================
 # DEV ENVIRONMENT MANAGER - OBSIDIAN NEXT GEN (v11.4)
-# Style: Full Segmented UI / Nobita Edition / Multi-Menu
+# Style: Full Segmented UI / lie_kg Edition / Multi-Menu
 # ===========================================================
 
 # --- 0. PRE-INITIALIZATION ---
 # Hostname badalna sabse pehle
-hostnamectl set-hostname Nobita 2>/dev/null
+hostnamectl set-hostname lie_kg 2>/dev/null
 
 # --- COLORS & STYLES ---
 B_BLUE='\033[1;38;5;33m'
